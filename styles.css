@@ -28,6 +28,7 @@ nav {
     color: #F9F9EF;
     width: 95%;
     margin: auto;
+    margin-top: 2.5rem;
     max-width: 1500px;
     padding: 1rem 2rem;
     border-radius: 3rem;
@@ -61,6 +62,7 @@ header {
     width: 95%;
     margin: auto;
     max-width: 1800px;
+    height: 80vh;
 }
 
 header div {
@@ -86,4 +88,48 @@ header img {
     border-radius: 1.5rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
+}
+
+.card {
+    background-color: #FAF9EF;
+    border-radius: 1rem;
+}
+
+.card-horizontal {
+    padding: 1rem 1.5rem;
+}
+
+.card-vertical {
+    padding: 1.5rem 1rem;
+}
+
+section {
+    width: 95%;
+    max-width: 1800px;
+    margin: auto;
+}
+
+.booking input {
+    background-color: #EFE4CE;
+    padding: 1.3rem 1.5rem;
+    border: #ADA6A2 solid 1.5px;
+    border-radius: 1rem;
+}
+
+.booking input[type=submit] {
+    background-color: #12BA9C;
+    border-style: none;
+    color: #FAF9EF;
+    padding: 1.3rem 1.5rem;
+    border-radius: 1rem;
+}
+
+.booking form {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.label-input {
+    display: flex;
+    flex-direction: column;
 }

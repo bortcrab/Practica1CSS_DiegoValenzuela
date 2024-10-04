@@ -35,27 +35,34 @@
         </div>
         <img src="imgs/restaurant.svg" alt="Imagen de un restaurante.">
     </header>
+    
     <section class="booking">
         <div>Book a table <img src="imgs/icons/arrow_1.svg" alt="Flecha" height="10"></div>
-        <div>
+        <div class="card card-horizontal">
             <form action="">
-                <label for="date">
-                    Date
-                    <img src="imgs/icons/arrow_2.svg" alt="Flecha" height="10">
-                </label>
-                <input type="date" name="date" id="">
+                <div class="label-input">
+                    <label for="date">
+                        Date
+                        <img src="imgs/icons/arrow_2.svg" alt="Flecha" height="10">
+                    </label>
+                    <input type="date" name="date" id="">
+                </div>
 
-                <label for="time">
-                    Time
-                    <img src="imgs/icons/arrow_2.svg" alt="Flecha" height="10">
-                </label>
-                <input type="time" name="time" id="">
+                <div class="label-input">
+                    <label for="time">
+                        Time
+                        <img src="imgs/icons/arrow_2.svg" alt="Flecha" height="10">
+                    </label>
+                    <input type="time" name="time" id="">
+                </div>
 
-                <label for="mail">
-                    Mail
-                    <img src="imgs/icons/arrow_2.svg" alt="Flecha" height="10">
-                </label>
-                <input type="email" name="mail" placeholder="yourmail@domail.com">
+                <div class="label-input">
+                    <label for="mail">
+                        Mail
+                        <img src="imgs/icons/arrow_2.svg" alt="Flecha" height="10">
+                    </label>
+                    <input type="email" name="mail" placeholder="yourmail@domail.com">
+                </div>
 
                 <input type="submit" value="Check availability">
             </form>
@@ -65,7 +72,7 @@
     <section>
         <h5>Delicious</h5>
         <h2>Food Categories</h2>
-        <div class="card">
+        <div class="card card-vertical">
             <img src="imgs/categories/meat.svg" alt="Imagen de carne." height="45">
             <h3>Meat</h3>
             <p>
@@ -76,7 +83,7 @@
             <a href="" class="button orange">Read more</a>
         </div>
 
-        <div class="card">
+        <div class="card card-vertical">
             <img src="imgs/categories/fish.svg" alt="Imagen de pescado." height="45">
             <h3>Fish</h3>
             <p>
@@ -87,7 +94,7 @@
             <a href="" class="button orange">Read more</a>
         </div>
 
-        <div class="card">
+        <div class="card card-vertical">
             <img src="imgs/categories/drink.svg" alt="Imagen de bebidas." height="45">
             <h3>Drink</h3>
             <p>
