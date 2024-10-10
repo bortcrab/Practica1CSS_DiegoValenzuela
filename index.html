@@ -23,7 +23,9 @@
     <header>
         <div>
             <h1>Eat, Drink and Enjoy.</h1>
-            <div>Your restaurant is waiting for you.</div>
+            <div>
+                <h3>Your restaurant is waiting for you.</h3>
+            </div>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti corporis minima facilis velit suscipit
                 vero
@@ -35,7 +37,7 @@
         </div>
         <img src="imgs/restaurant.svg" alt="Imagen de un restaurante.">
     </header>
-    
+
     <section class="booking">
         <div>Book a table <img src="imgs/icons/arrow_1.svg" alt="Flecha" height="10"></div>
         <div class="card card-horizontal">
@@ -69,40 +71,39 @@
         </div>
     </section>
 
-    <section>
+    <section class="categories">
         <h5>Delicious</h5>
         <h2>Food Categories</h2>
-        <div class="card card-vertical">
-            <img src="imgs/categories/meat.svg" alt="Imagen de carne." height="45">
-            <h3>Meat</h3>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae omnis quos cumque fuga enim quasi
-                quidem. Est architecto facere repellendus. Dignissimos perferendis voluptas cupiditate nobis illo
-                exercitationem atque doloribus delectus!
-            </p>
-            <a href="" class="button orange">Read more</a>
-        </div>
+        <div class="cards-container">
+            <div class="card card-vertical">
+                <img src="imgs/categories/meat.svg" alt="Imagen de carne." height="80">
+                <h3>Meat</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur nam, rem amet quas laboriosam,
+                    dolorum ipsam.
+                </p>
+                <a href="" class="button orange">Read more</a>
+            </div>
 
-        <div class="card card-vertical">
-            <img src="imgs/categories/fish.svg" alt="Imagen de pescado." height="45">
-            <h3>Fish</h3>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae omnis quos cumque fuga enim quasi
-                quidem. Est architecto facere repellendus. Dignissimos perferendis voluptas cupiditate nobis illo
-                exercitationem atque doloribus delectus!
-            </p>
-            <a href="" class="button orange">Read more</a>
-        </div>
+            <div class="card card-vertical">
+                <img src="imgs/categories/fish.svg" alt="Imagen de pescado." height="80">
+                <h3>Fish</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur nam, rem amet quas laboriosam,
+                    dolorum ipsam.
+                </p>
+                <a href="" class="button orange">Read more</a>
+            </div>
 
-        <div class="card card-vertical">
-            <img src="imgs/categories/drink.svg" alt="Imagen de bebidas." height="45">
-            <h3>Drink</h3>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae omnis quos cumque fuga enim quasi
-                quidem. Est architecto facere repellendus. Dignissimos perferendis voluptas cupiditate nobis illo
-                exercitationem atque doloribus delectus!
-            </p>
-            <a href="" class="button orange">Read more</a>
+            <div class="card card-vertical">
+                <img src="imgs/categories/drink.svg" alt="Imagen de bebidas." height="80">
+                <h3>Drink</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur nam, rem amet quas laboriosam,
+                    dolorum ipsam.
+                </p>
+                <a href="" class="button orange">Read more</a>
+            </div>
         </div>
     </section>
 
@@ -125,40 +126,52 @@
         <img src="imgs/the chef/the_chef.svg" alt="Imagen de un chef.">
     </section>
 
-    <section>
+    <section class="reviews">
         <h2><span>What our</span> Customers say</h2>
-        <article class="card">
-            <img src="imgs/testimonials/john.svg" alt="" height="100">
-            <h4>John Smith</h4>
-            <span>Aug/12/21</span>
-            <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus dolore, ut, mollitia doloremque
-                excepturi vitae laboriosam assumenda, asperiores optio sequi tempore magni illum cum qui dolor. Tenetur
-                laborum quis est.
-            </p>
-        </article>
+        <div class="reviews-container">
+            <article class="card review">
+                <img src="imgs/testimonials/john.svg" alt="" height="150">
+                <div>
+                    <div class="name-date">
+                        <h4>John Smith</h4>
+                        <span>Aug/12/21</span>
+                    </div>
+                    <p>
+                        "Lorem, ipsum dolor sit amet consectetur adipisicing elit i tempore magni illum cum qui dolor.
+                        Tenetur laborum quis est."
+                    </p>
+                </div>
+            </article>
 
-        <article class="card">
-            <img src="imgs/testimonials/sara.svg" alt="" height="100">
-            <h4>Sara Jonson</h4>
-            <span>Aug/3/21</span>
-            <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus dolore, ut, mollitia doloremque
-                excepturi vitae laboriosam assumenda, asperiores optio sequi tempore magni illum cum qui dolor. Tenetur
-                laborum quis est.
-            </p>
-        </article>
+            <article class="card review">
+                <img src="imgs/testimonials/sara.svg" alt="" height="150">
+                <div>
+                    <div class="name-date">
+                        <h4>Sara Jonson</h4>
+                        <span>Aug/3/21</span>
+                    </div>
+                    <p>
+                        "Lorem, ipsum dolor sit amet consectetur adipisicing elit i tempore magni illum cum qui dolor.
+                        Tenetur laborum quis est."
+                    </p>
+                </div>
+                </article>
 
-        <article class="card">
-            <img src="imgs/testimonials/steve.svg" alt="" height="100">
-            <h4>Steve James</h4>
-            <span>Jul/18/21</span>
-            <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus dolore, ut, mollitia doloremque
-                excepturi vitae laboriosam assumenda, asperiores optio sequi tempore magni illum cum qui dolor. Tenetur
-                laborum quis est.
-            </p>
-        </article>
+                <article class="card review">
+                    <img src="imgs/testimonials/steve.svg" alt="" height="150">
+                    <div>
+                        <div class="name-date">
+                            <h4>Steve James</h4>
+                            <span>Jul/18/21</span>
+                        </div>
+                        <p>
+                            "Lorem, ipsum dolor sit amet consectetur adipisicing elit i tempore magni illum cum qui
+                            dolor.
+                            Tenetur laborum quis est."
+                        </p>
+                    </div>
+                    </articl>
+        </div>
     </section>
 
     <section>

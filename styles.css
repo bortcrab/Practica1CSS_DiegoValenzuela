@@ -18,7 +18,7 @@ a {
 }
 
 h1 {
-    font-family: 'Fairplay Display';
+    font-family: 'Playfair Display';
     font-weight: 800;
     font-size: 3rem;
 }
@@ -30,7 +30,7 @@ nav {
     margin: auto;
     margin-top: 2.5rem;
     max-width: 1500px;
-    padding: 1rem 2rem;
+    padding: 1rem;
     border-radius: 3rem;
     display: flex;
     align-items: center;
@@ -38,9 +38,9 @@ nav {
 }
 
 .logo {
-    font-family: 'Fairplay Display';
+    font-family: 'Playfair Display';
     font-weight: 800;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
 }
 
 nav>a {
@@ -59,18 +59,25 @@ nav>ul a {
 }
 
 header {
+    display: flex;
     width: 95%;
     margin: auto;
     max-width: 1800px;
     height: 80vh;
+    margin-bottom: 2rem;
 }
 
-header div {
+header>div {
     width: 40%;
+}
+
+header>div>p {
+    margin-bottom: 2rem;
 }
 
 header img {
     width: 60%;
+    float: right;
 }
 
 .orange {
@@ -86,8 +93,6 @@ header img {
 .button {
     padding: 1rem 1.5rem;
     border-radius: 1.5rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
 }
 
 .card {
@@ -101,6 +106,14 @@ header img {
 
 .card-vertical {
     padding: 1.5rem 1rem;
+    width: 300px;
+    text-align: center;
+}
+
+.card-vertical p,
+.card-vertical img,
+.card-vertical h3 {
+    margin: 0 0 2rem 0;
 }
 
 section {
@@ -120,7 +133,7 @@ section {
     background-color: #12BA9C;
     border-style: none;
     color: #FAF9EF;
-    padding: 1.3rem 1.5rem;
+    padding: 0;
     border-radius: 1rem;
 }
 
@@ -132,4 +145,87 @@ section {
 .label-input {
     display: flex;
     flex-direction: column;
+}
+
+.cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.categories {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.categories h5 {
+    margin-top: 3rem;
+    margin-bottom: 0;
+    font-size: 1.5rem;
+}
+
+.categories h2 {
+    font-family: 'Playfair Display';
+    font-size: 3rem;
+    margin-top: 0.5rem;
+}
+
+h5 {
+    color: #FDA310;
+}
+
+.reviews-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px 90px;
+}
+
+.review {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.review img {
+    margin-right: 1rem;
+}
+
+.name-date {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h4 {
+    margin: 0;
+    font-family: 'Playfair Display';
+    font-size: 2rem;
+}
+
+.name-date span {
+    color: #dac191;
+}
+
+.reviews {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+}
+
+
+.reviews h2:not(span) {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    font-family: 'Playfair Display';
+    font-size: 3rem;
+}
+
+.reviews>h2>span {
+    color: #FF5710;
+    font-size: 2rem;
 }
